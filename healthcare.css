@@ -1,0 +1,68 @@
+.top{
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://www.royalcitytours.com/wp-content/uploads/2020/07/Day-Skyline-Panorama-Manhattan-New-York-City-NY-05.jpg);
+    background-size: 100%;
+    width: 1080;
+    background-position: 100% 23%;
+    margin-bottom: 10px;
+}
+.top .title{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(2, 179, 179);
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+.top .text{
+    text-align: center;
+    color: rgb(216, 216, 216);
+    font-family: "Exo 2", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.main{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    border: 1px solid rgb(238, 238, 238);
+    margin: 5px; /* Space between boxes */
+    border-radius: 10px;
+    transition: background-color 0.5s ease-out;
+}
+p {
+    font-family: "Exo 2", sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin: 0; /* Remove default margin for better alignment */
+    margin-right: 10px; /* Optional: Add some space between the paragraph and button */
+    text-align: left;
+}
+button {
+    font-family: "Nova Flat", system-ui;
+    margin: 5px;
+    padding: 5px 10px; /* Optional: Add padding to the button */
+    text-align: end;
+    background-color: rgb(0, 180, 180);
+    color:rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 0;
+    border-width: 1px;
+    transition: background-color 0.5s ease;
+}
+button:hover{
+    background-color: rgb(0, 124, 124);
+    color: white;
+}
+img {
+    border-radius: 10px 10px 5px 5px;
+}
+.box:hover{
+    box-shadow: 2px 2px;
+    
+}
